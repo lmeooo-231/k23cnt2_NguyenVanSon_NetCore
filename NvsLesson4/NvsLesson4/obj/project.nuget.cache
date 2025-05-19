@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JSxcK3b3um4=",
+  "success": true,
+  "projectFilePath": "D:\\netcore\\NvsLesson4\\NvsLesson4\\NvsLesson4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
+  ],
+  "logs": []
+}
