@@ -1,0 +1,52 @@
+﻿@model List<NvsLab06.Models.NvsEmployee>
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="NvsCreate" class="btn btn-primary">Thêm nhân viên mới</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Họ và Tên</th>
+            <th>Ngày Sinh</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Lương</th>
+            <th>Trạng Thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nvsEmp in Model)
+        {
+            <tr>
+                <td>@nvsEmp.NvsId</td>
+                <td>@nvsEmp.NvsName</td>
+                <td>@nvsEmp.NvsBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@nvsEmp.NvsEmail</td>
+                <td>@nvsEmp.NvsPhone</td>
+                <td>@nvsEmp.NvsSalary.ToString("C")</td>
+                <td>
+                    @if (nvsEmp.NvsStatus)
+                    {
+                        <span class="text-success">Đang làm</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Nghỉ việc</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="NvsEdit" asp-route-id="@nvsEmp.NvsId" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="NvsDelete" asp-route-id="@nvsEmp.NvsId" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

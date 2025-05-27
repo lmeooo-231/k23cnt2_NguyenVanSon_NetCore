@@ -1,0 +1,27 @@
+﻿@model NvsLab06.Models.NvsEmployee
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Bạn có chắc muốn xóa nhân viên sau không?</h4>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Họ tên</dt>
+        <dd class="col-sm-10">@Model.NvsName</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.NvsEmail</dd>
+
+        <dt class="col-sm-2">Điện thoại</dt>
+        <dd class="col-sm-10">@Model.NvsPhone</dd>
+    </dl>
+</div>
+
+<form asp-action="NvsDelete" method="post">
+    <input type="hidden" asp-for="NvsId" />
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="NvsIndex" class="btn btn-secondary">Hủy</a>
+</form>

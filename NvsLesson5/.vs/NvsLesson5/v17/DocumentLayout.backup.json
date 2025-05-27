@@ -70,8 +70,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -82,8 +86,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:10:45.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:10:45.591Z"
             },
             {
               "$type": "Document",
@@ -95,8 +98,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:10:44.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:10:44.728Z"
             },
             {
               "$type": "Document",
@@ -108,8 +110,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:10:42.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:10:42.784Z"
             },
             {
               "$type": "Document",
@@ -121,8 +122,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\Shared\\_NvsLayout.cshtml.css",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-20T03:01:08.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:01:08.232Z"
             },
             {
               "$type": "Document",
@@ -134,8 +134,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\Shared\\_NvsLayout.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwBsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:00:49.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:00:49.572Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:10:27.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:10:27.16Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "NvsLesson5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:10:07.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:10:07.184Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\NvsMember\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:04:49.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:04:49.488Z"
             },
             {
               "$type": "Document",
@@ -199,8 +195,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\NvsMember\\_NvsImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:04:15.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:04:15.013Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "RelativeToolTip": "NvsLesson5\\Controllers\\NvsHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:53:30.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T02:53:30.414Z"
             },
             {
               "$type": "Document",
@@ -225,8 +219,7 @@
               "RelativeToolTip": "NvsLesson5\\Controllers\\NvsMemberController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:55:55.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T02:55:55.801Z"
             },
             {
               "$type": "Document",
@@ -238,8 +231,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\NvsHome\\NvsAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:01:52.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:01:52.804Z"
             },
             {
               "$type": "Document",
@@ -251,8 +243,7 @@
               "RelativeToolTip": "NvsLesson5\\Views\\NvsMember\\NvsGetMember.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T03:03:24.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:03:24.341Z"
             },
             {
               "$type": "Document",
@@ -264,12 +255,7 @@
               "RelativeToolTip": "NvsLesson5\\Models\\DataModels\\NvsMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:59:40.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-05-20T02:59:40.788Z"
             }
           ]
         }
