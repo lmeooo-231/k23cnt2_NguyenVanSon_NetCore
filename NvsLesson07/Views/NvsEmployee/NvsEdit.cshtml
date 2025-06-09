@@ -1,0 +1,59 @@
+﻿@model NvsLesson07.Models.NvsEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên";
+}
+
+<h1>Sửa thông tin nhân viên</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvsEdit" asp-route-id="@Model.NvsId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvsId" class="control-label"></label>
+                <input asp-for="NvsId" class="form-control" />
+                <span asp-validation-for="NvsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsName" class="control-label"></label>
+                <input asp-for="NvsName" class="form-control" />
+                <span asp-validation-for="NvsName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsBirthDay" class="control-label"></label>
+                <input asp-for="NvsBirthDay" class="form-control" />
+                <span asp-validation-for="NvsBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsEmail" class="control-label"></label>
+                <input asp-for="NvsEmail" class="form-control" />
+                <span asp-validation-for="NvsEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsPhone" class="control-label"></label>
+                <input asp-for="NvsPhone" class="form-control" />
+                <span asp-validation-for="NvsPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsSalary" class="control-label"></label>
+                <input asp-for="NvsSalary" class="form-control" />
+                <span asp-validation-for="NvsSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NvsStatus" /> @Html.DisplayNameFor(model => model.NvsStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvsIndex">Back to List</a>
+</div>
+
