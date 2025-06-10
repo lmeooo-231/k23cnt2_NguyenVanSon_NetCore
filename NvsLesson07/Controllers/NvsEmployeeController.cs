@@ -11,7 +11,7 @@ namespace NvsLesson07.Controllers
         {
             new NvsEmployee
             {
-                NvsId = 2310900090,
+                NvsId = 231090009,
                 NvsName = "Nguyễn Văn Sơn",
                 NvsBirthDay = new DateTime(2005, 11, 23),
                 NvsEmail = "nvson2311@gmail.com",

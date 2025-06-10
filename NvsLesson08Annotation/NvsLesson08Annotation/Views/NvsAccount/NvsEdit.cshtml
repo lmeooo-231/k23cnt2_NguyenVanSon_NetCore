@@ -1,0 +1,78 @@
+﻿@model NvsLesson08Annotation.Models.NvsAccount
+
+@{
+    ViewData["Title"] = "NvsEdit";
+}
+
+<h1>NvsEdit</h1>
+
+<h4>NvsAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvsEdit" asp-route-id="@Model.NvsId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvsId" class="control-label"></label>
+                <input asp-for="NvsId" class="form-control" />
+                <span asp-validation-for="NvsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsFullName" class="control-label"></label>
+                <input asp-for="NvsFullName" class="form-control" />
+                <span asp-validation-for="NvsFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsEmail" class="control-label"></label>
+                <input asp-for="NvsEmail" class="form-control" />
+                <span asp-validation-for="NvsEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsPhone" class="control-label"></label>
+                <input asp-for="NvsPhone" class="form-control" />
+                <span asp-validation-for="NvsPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsAddress" class="control-label"></label>
+                <input asp-for="NvsAddress" class="form-control" />
+                <span asp-validation-for="NvsAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsAvatar" class="control-label"></label>
+                <input asp-for="NvsAvatar" class="form-control" />
+                <span asp-validation-for="NvsAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsBirthday" class="control-label"></label>
+                <input asp-for="NvsBirthday" class="form-control" />
+                <span asp-validation-for="NvsBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsGender" class="control-label"></label>
+                <input asp-for="NvsGender" class="form-control" />
+                <span asp-validation-for="NvsGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsPassword" class="control-label"></label>
+                <input asp-for="NvsPassword" class="form-control" />
+                <span asp-validation-for="NvsPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsFacebook" class="control-label"></label>
+                <input asp-for="NvsFacebook" class="form-control" />
+                <span asp-validation-for="NvsFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvsIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

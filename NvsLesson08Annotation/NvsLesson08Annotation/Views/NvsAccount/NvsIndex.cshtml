@@ -1,0 +1,90 @@
+﻿@model IEnumerable<NvsLesson08Annotation.Models.NvsAccount>
+
+@{
+    ViewData["Title"] = "NvsIndex";
+}
+
+<h1>NvsIndex</h1>
+
+<p>
+    <a asp-action="NvsCreate" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsAvatar)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsBirthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvsFacebook)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "NvsEdit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "NvsDetails", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "NvsDelete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
