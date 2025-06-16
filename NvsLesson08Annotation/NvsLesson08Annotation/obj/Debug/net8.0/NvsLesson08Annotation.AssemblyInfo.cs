@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NvsLesson08Annotation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+838a0989ec234229ac9ac23341aa8760088f4284")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7765fed37d29f874430e7481bcdd46e2bca76b1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NvsLesson08Annotation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NvsLesson08Annotation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

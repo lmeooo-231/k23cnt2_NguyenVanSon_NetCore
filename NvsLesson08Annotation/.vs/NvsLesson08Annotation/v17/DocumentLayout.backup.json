@@ -78,8 +78,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\Shared\\_NvsNavBar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:41:58.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:41:58.338Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\Shared\\_NvsLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:43:10.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:43:10.695Z"
             },
             {
               "$type": "Document",
@@ -100,12 +98,11 @@
               "Title": "NvsAccountController.cs",
               "DocumentMoniker": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Controllers\\NvsAccountController.cs",
               "RelativeDocumentMoniker": "NvsLesson08Annotation\\Controllers\\NvsAccountController.cs",
-              "ToolTip": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Controllers\\NvsAccountController.cs*",
-              "RelativeToolTip": "NvsLesson08Annotation\\Controllers\\NvsAccountController.cs*",
+              "ToolTip": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Controllers\\NvsAccountController.cs",
+              "RelativeToolTip": "NvsLesson08Annotation\\Controllers\\NvsAccountController.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAkwIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T02:04:31.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T02:04:31.634Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsAccount\\NvsIndex.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T02:07:45.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T02:07:45.734Z"
             },
             {
               "$type": "Document",
@@ -126,9 +122,9 @@
               "Title": "NvsEdit.cshtml",
               "DocumentMoniker": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml",
               "RelativeDocumentMoniker": "NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml",
-              "ToolTip": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml*",
-              "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ToolTip": "D:\\netcore\\k23cnt2_NguyenVanSon_NetCore\\NvsLesson08Annotation\\NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml",
+              "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsAccount\\NvsEdit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:26:59.271Z",
               "EditorCaption": ""
@@ -143,8 +139,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsAccount\\NvsCreate.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T02:58:40.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T02:58:40.702Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Models\\NvsAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:52:18.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:52:18.121Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Controllers\\NvsHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:37:24.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:37:24.745Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T02:54:16.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T02:54:16.774Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:45:08.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:45:08.17Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:45:10.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:45:10.553Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:42:01.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:42:01.106Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsHome\\NvsAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:39:04.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:39:04.753Z"
             },
             {
               "$type": "Document",
@@ -247,8 +235,7 @@
               "RelativeToolTip": "NvsLesson08Annotation\\Views\\NvsHome\\NvsIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T01:38:31.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:38:31.305Z"
             }
           ]
         }
