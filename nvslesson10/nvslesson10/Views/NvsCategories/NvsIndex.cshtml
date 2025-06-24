@@ -1,0 +1,53 @@
+﻿@model IEnumerable<nvslesson10.Models.NvsCategory>
+@{
+    ViewData["Title"] = "Danh mục loại";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NvsCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CateId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateStatus)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateName)
+            </td>
+            <td>
+                @if (item.CateStatus == true)
+                {
+                    <text>Hiển thị</text>
+                }
+                else
+                {
+                    <text>Tạm khóa</text>
+                }
+             </td>
+            <td>
+                    <a asp-action="NvsEdit" asp-route-tvcId="@item.CateId">Edit</a> |
+                    <a asp-action="NvsDetails" asp-route-tvcId="@item.CateId">Details</a> |
+                    <a asp-action="NvsDelete" asp-route-tvcId="@item.CateId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
