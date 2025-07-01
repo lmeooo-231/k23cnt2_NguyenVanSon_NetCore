@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NguyenVanSon_2310900090.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace NguyenVanSon_2310900090.Controllers
 {
@@ -65,14 +66,14 @@ namespace NguyenVanSon_2310900090.Controllers
         }
 
         // GET: NvsEmployees/Edit/5
-        public async Task<IActionResult> NvsEdit(int? id)
+        public async Task<IActionResult> NvsEdit(int? nvsId)
         {
-            if (id == null)
+            if (nvsId == null)
             {
                 return NotFound();
             }
 
-            var nvsEmployee = await _context.NvsEmployees.FindAsync(id);
+            var nvsEmployee = await _context.NvsEmployees.FindAsync(nvsId);
             if (nvsEmployee == null)
             {
                 return NotFound();
@@ -85,9 +86,9 @@ namespace NguyenVanSon_2310900090.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> NvsEdit(int id, [Bind("NvsEmpId,NvsEmpName,NvsEmpLevel,NvsEmpStartDate,NvsEmpStatus")] NvsEmployee nvsEmployee)
+        public async Task<IActionResult> NvsEdit(int nvsId, [Bind("NvsEmpId,NvsEmpName,NvsEmpLevel,NvsEmpStartDate,NvsEmpStatus")] NvsEmployee nvsEmployee)
         {
-            if (id != nvsEmployee.NvsEmpId)
+            if (nvsId != nvsEmployee.NvsEmpId)
             {
                 return NotFound();
             }
@@ -116,15 +117,15 @@ namespace NguyenVanSon_2310900090.Controllers
         }
 
         // GET: NvsEmployees/Delete/5
-        public async Task<IActionResult> NvsDelete(int? id)
+        public async Task<IActionResult> NvsDelete(int? nvsId)
         {
-            if (id == null)
+            if (nvsId == null)
             {
                 return NotFound();
             }
 
             var nvsEmployee = await _context.NvsEmployees
-                .FirstOrDefaultAsync(m => m.NvsEmpId == id);
+                .FirstOrDefaultAsync(m => m.NvsEmpId == nvsId);
             if (nvsEmployee == null)
             {
                 return NotFound();
@@ -136,9 +137,9 @@ namespace NguyenVanSon_2310900090.Controllers
         // POST: NvsEmployees/Delete/5
         [HttpPost, ActionName("NvsDelete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int nvsId)
         {
-            var nvsEmployee = await _context.NvsEmployees.FindAsync(id);
+            var nvsEmployee = await _context.NvsEmployees.FindAsync(nvsId);
             if (nvsEmployee != null)
             {
                 _context.NvsEmployees.Remove(nvsEmployee);
@@ -148,9 +149,9 @@ namespace NguyenVanSon_2310900090.Controllers
             return RedirectToAction(nameof(NvsIndex));
         }
 
-        private bool NvsEmployeeExists(int id)
+        private bool NvsEmployeeExists(int nvsId)
         {
-            return _context.NvsEmployees.Any(e => e.NvsEmpId == id);
+            return _context.NvsEmployees.Any(e => e.NvsEmpId == nvsId);
         }
     }
 }
