@@ -1,0 +1,51 @@
+﻿@model NguyenVanSon_2310900090.Models.NvsEmployee
+
+@{
+    ViewData["Title"] = "tạo mới nhân viên";
+}
+
+<h1>thêm nhân viên</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvsEmpId" class="control-label">mã nhân viên</label>
+                <input asp-for="NvsEmpId" class="form-control" />
+                <span asp-validation-for="NvsEmpId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsEmpName" class="control-label">tên nhân viên</label>
+                <input asp-for="NvsEmpName" class="form-control" />
+                <span asp-validation-for="NvsEmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsEmpLevel" class="control-label">cấp nhân viên</label>
+                <input asp-for="NvsEmpLevel" class="form-control" />
+                <span asp-validation-for="NvsEmpLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvsEmpStartDate" class="control-label">ngày bắt đầu làm việc</label>
+                <input asp-for="NvsEmpStartDate" class="form-control" />
+                <span asp-validation-for="NvsEmpStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NvsEmpStatus" /> @Html.DisplayNameFor(model => model.NvsEmpStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvsIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

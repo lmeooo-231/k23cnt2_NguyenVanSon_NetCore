@@ -1,0 +1,66 @@
+﻿@model IEnumerable<NguyenVanSon_2310900090.Models.NvsEmployee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="NvsCreate" class="btn btn-primary">thêm mới</a>
+</p>
+<table class="table table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmpId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvsEmpStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvsEmpId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvsEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvsEmpLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvsEmpStartDate)
+            </td>
+            <td>
+                    @if (item.NvsEmpStatus == true)
+                    {
+                        <span class="text-success">Show</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Hide</span>
+                    }
+            </td>
+            <td>
+                    <a asp-action="NvsEdit" asp-route-nvsId="@item.NvsEmpId">Edit</a> |
+                    <a asp-action="NvsDetails" asp-route-nvsId="@item.NvsEmpId">Details</a> |
+                    <a asp-action="NvsDelete" asp-route-nvsId="@item.NvsEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
